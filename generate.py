@@ -9,7 +9,7 @@ from keras.utils import np_utils
 
 
 # load ascii text and covert to lowercase
-filename = "TRUMP_speeches.txt"
+filename = "Speeches.txt"
 raw_text = open(filename).read()
 raw_text = raw_text.lower()
 # create mapping of unique chars to integers, and a reverse mapping
@@ -85,22 +85,7 @@ for i in range(500):
 print ("Done")
 
 
-epochs = [1, 5, 10, 15, 20, 25, 30, 40, 45, 50, 60, 68]
-loss = [2.699306, 2.279430, 1.836922, 1.413346, 1.051214, 0.772619, 0.582175, 0.381016, 0.334254, 0.302160, 0.262853, 0.244175]
+#epochs = [1, 5, 10, 15, 20, 25, 30, 40, 45, 50, 60, 68]
+#loss = [2.699306, 2.279430, 1.836922, 1.413346, 1.051214, 0.772619, 0.582175, 0.381016, 0.334254, 0.302160, 0.262853, 0.244175]
 
 
-
-'''
-01-2.699306
-05-2.279430  
-10-1.836922
-15-1.413346
-20-1.051214  
-25-0.772619
-30-0.582175
-40-0.381016  
-45-0.334254
-50-0.302160
-60-0.262853
-68-0.244175
-'''
