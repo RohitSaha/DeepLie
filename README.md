@@ -35,3 +35,6 @@ Word vectors are calculated for the words present in the documents using pre tra
 <li> Points which are marked in 'blue' are word vectors that were derived from the generated document.
 </ul>
 
+Difference between the centroids : ##### 0.003320
+
+This valus gives a measure of how deflecting 2 documents are from each other.
