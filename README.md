@@ -28,4 +28,4 @@ this was about time oressed , we will be our success . we share one heart , one 
 
 Word vectors are calculated for the words present in the documents using pre trained word vector models. Gensim is used to load the pre trained weights. PCA is done on the vectors and brought down to 3 components for visualization purposes.
 
-![](https://github.com/rohitsaha/Deep-Lie/blob/master/Data/Plotting.png)
+![](https://github.com/rohitsaha/DeepLie/blob/master/Data/Plotting.png)
